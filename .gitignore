@@ -1,9 +1,0 @@
-*.csv
-*.npy
-*.json
-/DiffTraj
-/utils/__pycache__
-/utils
-main.py
-/utils
-/process
