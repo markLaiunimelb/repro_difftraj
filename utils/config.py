@@ -1,8 +1,8 @@
 args = {
     'data': {
         'dataset': 'Porto',
-        'traj_path1': '/xxxxxxx',
-        'head_path2': '/xxxxxxx',
+        'traj_path1': '../porto_traj.npy',
+        'head_path2': '../porto_heads.npy',
         'traj_length': 200,
         'channels': 2,
         'uniform_dequantization': False,
@@ -12,6 +12,7 @@ args = {
     'model': {
         'type': "simple",
         'attr_dim': 8,
+
         'guidance_scale': 3,
         'in_channels': 2,
         'out_ch': 2,
