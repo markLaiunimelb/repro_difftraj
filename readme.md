@@ -6,6 +6,9 @@ dataset: Porto taxi dataset from keggle ([porto_taxi_dataset](https://www.kaggle
 - preprocess raw trajectory data
 - train with preprocessed data (not included, see origial difftraj repo)
 - plot the generated trajectory
-
+### parameters
+'batch_size': 512, (compromised because of the lack of computation resources, 1024 in original works)
+'n_epochs': 200,
+'n_iters': 5000000,
 ### results
 ![generated trajectory against the map of Porto](porto.png)
